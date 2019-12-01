@@ -8,3 +8,6 @@ $ sudo usermod -a -G rvm `whoami`
 source ~/.rvm/scripts/rvm - перевідкриваємо терміна і запускаємо цю команду
 rvm install ruby --default - встановлення останьої версії рубі
 ruby -v
+
+
+https://www.digitalocean.com/community/tutorials/how-to-install-ruby-and-set-up-a-local-programming-environment-on-ubuntu-16-04
