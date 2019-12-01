@@ -1,4 +1,11 @@
+https://rvm.io/rvm/install
+
+
+
 sudo apt-get update
+
+
+
 sudo apt-get install -y curl gnupg build-essential
 
 
