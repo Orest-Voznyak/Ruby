@@ -1,5 +1,3 @@
-==Встановлення Ruby=================================================
-
 https://github.com/rvm/ubuntu_rvm
 
 sudo apt-get update
@@ -15,7 +13,6 @@ click on Title and Command tab and check Run command as login shell.
 -- Перезавантажуємо ПК
 
 rvm install ruby
+ruby -v - перевірка версії рубі котра в нас зараз встановлена
 
-===Видалення Ryby=============================================
-https://stackoverflow.com/questions/3558656/how-can-i-remove-rvm-ruby-version-manager-from-my-system
 
