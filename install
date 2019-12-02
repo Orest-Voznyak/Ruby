@@ -1,22 +1,16 @@
-https://rvm.io/rvm/install
-
-
+https://github.com/rvm/ubuntu_rvm
 
 sudo apt-get update
-
-
-
-sudo apt-get install -y curl gnupg build-essential
-
-
-sudo gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 sudo gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+sudo apt-get install software-properties-common
+sudo apt-add-repository -y ppa:rael-gc/rvm
+sudo apt-get update
+sudo apt-get install rvm
 
-$ curl -sSL https://get.rvm.io | sudo bash -s stable
-$ sudo usermod -a -G rvm `whoami`
-source ~/.rvm/scripts/rvm - перевідкриваємо терміна і запускаємо цю команду
-rvm install ruby --default - встановлення останьої версії рубі
-ruby -v
+At terminal window, click Edit > Profile Preferences, 
+click on Title and Command tab and check Run command as login shell.
 
+-- Перезавантажуємо ПК
 
-https://www.digitalocean.com/community/tutorials/how-to-install-ruby-and-set-up-a-local-programming-environment-on-ubuntu-16-04
+rvm install ruby
+
