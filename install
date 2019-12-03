@@ -16,5 +16,9 @@ sudo apt-get install rvm
 
 rvm встановити рубін
 
+==Керування рубінами============================================
+
+https://www.digitalocean.com/community/tutorials/how-to-use-rvm-to-manage-ruby-installations-and-environments-on-a-vps#how-to-use-gemsets
+
 === Видалення Ryby ================================================
 https://stackoverflow.com/questions/3558656/how-can-i-remove-rvm-ruby-version-manager-from-my-system
