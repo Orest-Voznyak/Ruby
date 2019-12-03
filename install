@@ -22,3 +22,17 @@ https://www.digitalocean.com/community/tutorials/how-to-use-rvm-to-manage-ruby-i
 
 === Видалення Ryby ================================================
 https://stackoverflow.com/questions/3558656/how-can-i-remove-rvm-ruby-version-manager-from-my-system
+
+
+===автоматичний вхід==========
+sudo mkdir pup_ruby_2 ---створили деректорію
+sudo touch .ruby-version .ruby-gemset - створюємо 2-ва файла
+
+cat .ruby-gemset --- в файлі прописуєм назву gemsetу- назва повина відповідати назві деректорії в котрі зберігається файл
+pup_ruby_2
+
+ cat .ruby-version ---- прописуєм назву рубі
+2.6.3
+
+rvm gemset list
+rvm list - провірка версії
